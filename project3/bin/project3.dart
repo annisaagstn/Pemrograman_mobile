@@ -10,6 +10,11 @@ void main(List<String> arguments) {
  //fl[4] = 5;
 
  //cetak
- stdout.writeln(fl);
+ //stdout.writeln(fl);
+
+ var gl = [1, 2, 3];
+ gl.add(4);
+ gl.remove(2);
+ stdout.writeln(gl);
 
 }
