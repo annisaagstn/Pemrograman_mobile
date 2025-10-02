@@ -1,4 +1,4 @@
-void main(List<String> arguments) {
+//void main(List<String> arguments) {
 //  // print('Hello world: ${project3.calculate()}!');
 //  var fl = List<int>.filled(4,3);
 //  fl[0] = 1;
@@ -60,12 +60,17 @@ void main(List<String> arguments) {
   // var mhs = (nama: "Annisa", umur : 20);
   // print("Nama : ${mhs.nama}, Umur : ${mhs.umur}");
 
-void sapa(String nama, int umur){
-  print("Halo namaku $nama, umurku $umur tahun");
-}
+// void sapa(String nama, int umur){
+//   print("Halo namaku $nama, umurku $umur tahun");
+// }
 
-void main() {
-  sapa("Annisa", 20); //parameternya nama -> "Annisa", umur -> 20
-}
+// void main() {
+//   sapa("Annisa", 20); //parameternya nama -> "Annisa", umur -> 20
+// }
 
+  void main(){
+  var list = [1, 2, 3];
+  list.forEach((angka) {
+    print("Angka: $angka");
+  });
 }
