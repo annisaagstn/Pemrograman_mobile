@@ -38,17 +38,26 @@ void main(List<String> arguments) {
 //   print(NilaiList.elementAt(1));
     //print(setNilai1.elementAt(0));
 
-    var sudah = {'nim': "101", 'nama': "andi", 'umur': 20};
-    print(sudah);
-    print(sudah['nama']);
-    var opo = {
-      'nim': ["101", "102"],
-      'nama' :["andi", "budi"],
-      'umur' : [20, 21],
-    };
-    print(opo);
-    //print(opo['nama']); mengeprint semua
-    print(opo['nama']![1]); //untuk mengeprint budi saja
+    // var sudah = {'nim': "101", 'nama': "andi", 'umur': 20};
+    // print(sudah);
+    // print(sudah['nama']);
+    // var opo = {
+    //   'nim': ["101", "102"],
+    //   'nama' :["andi", "budi"],
+    //   'umur' : [20, 21],
+    // };
+    // print(opo);
+    // //print(opo['nama']); mengeprint semua
+    // print(opo['nama']![1]); //untuk mengeprint budi saja
 
+
+  var mahasiswa = ("Annisa", 20, true);
+  print(mahasiswa);
+  print(mahasiswa.$1);
+  print(mahasiswa.$2);
+
+  //named record
+  var mhs = (nama: "Annisa", umur : 20);
+  print("Nama : ${mhs.nama}, Umur : ${mhs.umur}");
 
 }
