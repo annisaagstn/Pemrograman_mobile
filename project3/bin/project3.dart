@@ -51,13 +51,21 @@ void main(List<String> arguments) {
     // print(opo['nama']![1]); //untuk mengeprint budi saja
 
 
-  var mahasiswa = ("Annisa", 20, true);
-  print(mahasiswa);
-  print(mahasiswa.$1);
-  print(mahasiswa.$2);
+  // var mahasiswa = ("Annisa", 20, true);
+  // print(mahasiswa);
+  // print(mahasiswa.$1);
+  // print(mahasiswa.$2);
 
-  //named record
-  var mhs = (nama: "Annisa", umur : 20);
-  print("Nama : ${mhs.nama}, Umur : ${mhs.umur}");
+  // //named record
+  // var mhs = (nama: "Annisa", umur : 20);
+  // print("Nama : ${mhs.nama}, Umur : ${mhs.umur}");
+
+void sapa(String nama, int umur){
+  print("Halo namaku $nama, umurku $umur tahun");
+}
+
+void main() {
+  sapa("Annisa", 20); //parameternya nama -> "Annisa", umur -> 20
+}
 
 }
