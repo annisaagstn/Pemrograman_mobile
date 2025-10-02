@@ -68,9 +68,18 @@
 //   sapa("Annisa", 20); //parameternya nama -> "Annisa", umur -> 20
 // }
 
+//   void main(){
+//   var list = [1, 2, 3];
+//   list.forEach((angka) {
+//     print("Angka: $angka");
+//   });
+// }
+
   void main(){
-  var list = [1, 2, 3];
-  list.forEach((angka) {
-    print("Angka: $angka");
-  });
+  var x = 10;
+  void tampil(){
+    print(x);   //bisa akses x meskepin x ada diluar
+  }
+
+  tampil();
 }
