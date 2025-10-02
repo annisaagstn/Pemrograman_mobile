@@ -75,11 +75,28 @@
 //   });
 // }
 
-  void main(){
-  var x = 10;
-  void tampil(){
-    print(x);   //bisa akses x meskepin x ada diluar
-  }
+//   void main(){
+//   var x = 10;
+//   void tampil(){
+//     print(x);   //bisa akses x meskepin x ada diluar
+//   }
 
-  tampil();
+//   tampil();
+// }
+
+Function buatCounter(){
+  var hitung = 0;
+
+  return() {
+    hitung++;
+    return hitung;
+  };
+}
+
+void main(){
+  var counter = buatCounter();
+  print(counter()); //1
+  print(counter()); //2
+  print(counter()); //3
+  
 }
