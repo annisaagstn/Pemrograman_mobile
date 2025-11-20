@@ -20,7 +20,6 @@ class User {
       createdAt: DateTime.parse(json['created_at']),
     );
   }
-
   // Konversi dari objek Dart ke JSON
   Map<String, dynamic> toJson() {
     return {
